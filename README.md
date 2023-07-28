@@ -16,7 +16,7 @@ For a deeper understanding of the dataset's structure and field descriptions, re
 2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 ## Architecture 
-<img src="architecture.jpeg">
+<img src="architecture.jpg">
 
 ## Technology Used
 - Programming Language - Python
