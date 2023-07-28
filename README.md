@@ -2,13 +2,13 @@
 
 ## Introduction
 
-This project showcases an end-to-end ETL (Extract, Transform, Load) pipeline for processing Uber trip records data. The pipeline retrieves data from the TLC Trip Record Data provided by New York City's Taxi and Limousine Commission (TLC) for yellow and green taxi trips. It includes various fields capturing pick-up and drop-off dates/times, locations, distances, fares, rate types, payment types, and passenger counts reported by drivers.
+This project demonstrates a comprehensive ETL (Extract, Transform, Load) pipeline designed to process Uber trip records data. The pipeline is designed to fetch data from the official TLC Trip Record Data provided by New York City's Taxi and Limousine Commission (TLC) for both yellow and green taxi trips. The dataset contains crucial information such as pick-up and drop-off dates/times, precise locations, distances traveled, fare details, rate types, payment methods, and passenger counts, all meticulously reported by the drivers.
 
 ## Dataset
 
 The dataset used in this project is the TLC Trip Record Data for yellow and green taxi trips. It offers a comprehensive collection of information related to Uber trips in New York City. To access the dataset, please follow the link below:
 
-Uber Data CSV - https://github.com/megs1110/uber-etl-pipeline/blob/main/data/uber_data.csv
+Uber Data CSV -https://github.com/balasai24/Uber-Data-Engineering/blob/main/uber_data%20(1).csv
 
 For a deeper understanding of the dataset's structure and field descriptions, refer to the following resources:
 
@@ -53,14 +53,16 @@ Leveraging the power of Google BigQuery, a fully-managed data warehouse, this st
 ## Step 6: Dashboard Visualization
 The project concludes by creating an interactive dashboard using Looker, a powerful data visualization and business intelligence platform. The dashboard visualizes the analytical results, making it easier to derive insights and present the findings to stakeholders. Through this step, I learned how to create visually appealing and informative dashboards that facilitate data exploration and interpretation.
 
-<img src="Uber_Dashboard _page-0001.jpeg">
+<img src="Dashboard.png">
+link to Dashboard -https://lookerstudio.google.com/reporting/94b3731d-56a9-4356-8163-fbc2d6eef6ee
 
-## Challenges Faced
-During the project, several challenges were encountered. One of the major difficulties arose from system limitations with MageAI. Due to system constraints, MageAI would frequently shut down and require restarts, resulting in time delays during the data transformation and loading process. These delays impacted the overall efficiency of the pipeline and required additional troubleshooting and optimization.
 
-To mitigate these challenges, it is advisable to allocate sufficient system resources and optimize the MageAI environment to ensure smooth and uninterrupted processing. Additionally, implementing error handling mechanisms and monitoring systems can help detect and resolve issues promptly, minimizing the impact on the pipeline's performance.
+## Project Challenges
+During the project, I encountered several challenges that affected the performance of the data pipeline. One major difficulty was related to system limitations with MageAI, which would frequently shut down, causing time delays in data transformation and loading. These delays had a notable impact on the pipeline's efficiency and required additional efforts in troubleshooting and optimization.
 
-Feel free to explore the project and leverage the provided resources to enhance your understanding of the Uber ETL pipeline and data engineering concepts. Happy coding!
+To address these challenges, I recommend allocating sufficient system resources and optimizing the MageAI environment to ensure smooth and uninterrupted processing. Additionally, implementing robust error handling mechanisms and monitoring systems can help detect and resolve issues promptly, minimizing their impact on the pipeline's performance.
+
+
 
 
 
